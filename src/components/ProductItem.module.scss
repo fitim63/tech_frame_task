@@ -1,0 +1,57 @@
+.mainContainer {
+  display: flex;
+
+  .productContainer {
+    display: flex;
+    padding: 10px;
+    width: 200px;
+
+    .productContainerLeftSide {
+      display: flex;
+      flex-direction: column;
+
+      .price {
+        color: green;
+        margin-top: 10px;
+      }
+
+      .productName {
+        margin-top: 5px;
+        width: 100px;
+      }
+    }
+
+    .rightSide {
+      margin-left: 30px;
+
+      .input {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .cartContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+    .productInCart {
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid blue;
+      border-radius: 5px;
+    }
+
+    .buyButton {
+      margin-top: 20px;
+    }
+  }
+}
+
+.invoice {
+  margin-left: 100px;
+
+  table, th, td {
+    border: 1px solid;
+  }
+}
